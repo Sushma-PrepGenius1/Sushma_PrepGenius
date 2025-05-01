@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <title>Dashboard | Prepgenius</title>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Sidebar -->
+    <div class="flex">
+        <aside class="w-64 bg-white h-screen shadow-lg p-5">
+            <div class="flex items-center space-x-3">
+                <!-- <img src="https://via.placeholder.com/40" alt="logo" class="w-8 h-8"> -->
+                <h2 class="text-lg font-semibold">Prepgenius</h2>
+            </div>
+            <nav class="mt-5">
+                <ul class="space-y-2">
+                    <li class="bg-purple-100 text-purple-700 rounded-lg p-2 flex items-center">
+                        <span>📊</span>
+                        <a href="#" class="ml-3">Dashboard</a>
+                    </li>
+                    <li class="p-2 flex items-center hover:bg-gray-200 rounded-lg">
+                        <span>🏆</span>
+                        <a href="#" class="ml-3">Leaderboard</a>
+                    </li>
+                    <li class="p-2 flex items-center hover:bg-gray-200 rounded-lg">
+                        <span>🛤️</span>
+                        <a href="#" class="ml-3">Roadmap</a>
+                    </li>
+                    <li class="p-2 flex items-center hover:bg-gray-200 rounded-lg">
+                        <span>📝</span>
+                        <a href="#" class="ml-3">Pre Placement Strategy</a>
+                    </li>
+                    <li class="p-2 flex items-center hover:bg-gray-200 rounded-lg">
+                        <span>🎓</span>
+                        <a href="#" class="ml-3">Mentor Guidance</a>
+                    </li>
+                    <li class="p-2 flex items-center hover:bg-gray-200 rounded-lg">
+                        <span>👥</span>
+                        <a href="#" class="ml-3">Friends</a>
+                    </li>
+                    <li class="p-2 flex items-center hover:bg-gray-200 rounded-lg">
+                        <span>👤</span>
+                        <a href="#" class="ml-3">Profile</a>
+                    </li>
+                    <li class="p-2 flex items-center hover:bg-red-100 text-red-700 rounded-lg">
+                        <span>🚪</span>
+                        <a href="#" class="ml-3">Logout</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 p-6">
+            <header class="flex justify-between items-center">
+                <h1 class="text-2xl font-semibold">Dashboard</h1>
+                <div class="flex items-center space-x-4">
+                    <span class="text-lg font-semibold">Atharva</span>
+                    <div class="w-10 h-10 bg-gradient-to-r from-red-300 via-green-300 to-purple-300 rounded-full"></div>
+                    <span>🔔</span>
+                </div>
+            </header>
+
+            <!-- Stats Section -->
+            <section class="grid grid-cols-4 gap-4 mt-5">
+                <div class="bg-white shadow-md rounded-lg p-5 flex flex-col items-center">
+                    <h3 class="text-lg font-semibold">Ongoing Streak</h3>
+                    <span class="text-2xl text-purple-600 font-bold">5d+</span>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-5 flex flex-col items-center">
+                    <h3 class="text-lg font-semibold">Days Left</h3>
+                    <span class="text-2xl text-purple-600 font-bold">365</span>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-5 flex flex-col items-center">
+                    <h3 class="text-lg font-semibold">Completed Courses</h3>
+                    <span class="text-2xl text-purple-600 font-bold">12</span>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-5 flex flex-col items-center">
+                    <h3 class="text-lg font-semibold">Ongoing Courses</h3>
+                    <span class="text-2xl text-purple-600 font-bold">3</span>
+                </div>
+            </section>
+
+            <!-- Event Section -->
+            <section class="mt-6 grid grid-cols-2 gap-4">
+                <div class="bg-white shadow-md rounded-lg p-5">
+                    <i class="fas fa-calendar-alt text-6xl text-purple-600"></i>
+                    <h3 class="text-lg font-semibold mt-3">AI, GenAI, LLMs and ML Meetup</h3>
+                </div>
+                <div class="bg-gray-800 text-white p-5 rounded-lg">
+                    <h3 class="text-lg font-semibold">Work with your friends</h3>
+                    <p class="mt-2">Collaborating with peers and creating projects is the best way to learn.</p>
+                    <a href="#" class="mt-3 inline-block text-blue-300">Read More →</a>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="mt-6 grid grid-cols-2 gap-4">
+                <div class="bg-white shadow-md rounded-lg p-5">
+                    <h3 class="text-lg font-semibold">Projects</h3>
+                    <p class="text-gray-600 mt-2">✅ 30 done this month</p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-5">
+                    <h3 class="text-lg font-semibold">Current Month's Progress</h3>
+                    <p class="text-green-600 font-bold mt-2">⬆️ 24% this month</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>

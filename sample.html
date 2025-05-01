@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <h1 class="text-xl bg-purple-100 text-purple-700 p-4">Resume Analysis</h1>
+
+    <div class="container mx-auto p-8">
+        <h2 class="text-lg font-bold text-gray-700 mb-4">Keyword Matching</h2>
+        <table class="table-auto w-full text-md text-gray-600 border-collapse">
+            <thead>
+                <tr>
+                    <th class="px-4 py-2 border border-gray-300">Job Description Keywords</th>
+                    <th class="px-4 py-2 border border-gray-300">Resume Keywords</th>
+                    <th class="px-4 py-2 border border-gray-300">Missing Keywords</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Java</td>
+                    <td class="px-4 py-2 border border-gray-300">Python, JavaScript, C++, Arduino C</td>
+                    <td class="px-4 py-2 border border-gray-300">Java, C#</td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Python</td>
+                    <td class="px-4 py-2 border border-gray-300">Python</td>
+                    <td class="px-4 py-2 border border-gray-300"></td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">JavaScript</td>
+                    <td class="px-4 py-2 border border-gray-300">JavaScript, HTML, CSS</td>
+                    <td class="px-4 py-2 border border-gray-300"></td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">C++</td>
+                    <td class="px-4 py-2 border border-gray-300">C++</td>
+                    <td class="px-4 py-2 border border-gray-300"></td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">React</td>
+                    <td class="px-4 py-2 border border-gray-300">React</td>
+                    <td class="px-4 py-2 border border-gray-300"></td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Django</td>
+                    <td class="px-4 py-2 border border-gray-300">Django</td>
+                    <td class="px-4 py-2 border border-gray-300"></td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">SQL</td>
+                    <td class="px-4 py-2 border border-gray-300"></td>
+                    <td class="px-4 py-2 border border-gray-300">SQL (MySQL, PostgreSQL)</td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Git</td>
+                    <td class="px-4 py-2 border border-gray-300"></td>
+                    <td class="px-4 py-2 border border-gray-300">Git</td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Software Development</td>
+                    <td class="px-4 py-2 border border-gray-300">IoT solutions, Web applications</td>
+                    <td class="px-4 py-2 border border-gray-300"></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h2 class="text-lg font-bold text-gray-700 mt-8 mb-4">Resume Evaluation</h2>
+        <table class="table-auto w-full text-md text-gray-600 border-collapse">
+            <thead>
+                <tr>
+                    <th class="px-4 py-2 border border-gray-300">Resume Element</th>
+                    <th class="px-4 py-2 border border-gray-300">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Contact Information</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-green-500">✓</span></td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Resume Format</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-green-500">✓</span> (Assuming .pdf or .docx)</td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Keywords and Phrases</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-yellow-500">⚠</span> (Needs Improvement - Missing key job description keywords)</td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Formatting</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-green-500">✓</span></td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Work Experience</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-yellow-500">⚠</span> (Needs more quantifiable achievements and standard format)</td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Education</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-green-500">✓</span></td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Skills</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-yellow-500">⚠</span> (Needs expansion and better categorization)</td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Quantifiable Achievements</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-yellow-500">⚠</span> (Needs more quantitative data in projects and internships)</td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Online Presence</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-green-500">✓</span></td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Customization</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-yellow-500">⚠</span> (Needs tailoring to the specific job description)</td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Gaps in Employment</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-green-500">✓</span> (No gaps apparent)</td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Consistency</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-green-500">✓</span></td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Length</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-green-500">✓</span></td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Language and Grammar</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-green-500">✓</span></td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">File Naming</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-green-500">✓</span></td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">Applicant's Contact</td>
+                    <td class="px-4 py-2 border border-gray-300"><span class="text-green-500">✓</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
